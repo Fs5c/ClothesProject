@@ -1,4 +1,6 @@
-﻿using System;
+using Clothes.DataAccessLayer;
+using Clothes.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +14,31 @@ namespace Clothes
 {
     public partial class Inventory : Form
     {
-        public Inventory()
+   
+        public  Inventory()
         {
             InitializeComponent();
+        }
+
+        private void frmMyInventory_Load(object sender, EventArgs e)
+        {
+            cbItems.ValueMember = "ItemId";
+            cbItems.DisplayMember = "ItemName";
+            cbItems.DataSource = ItemsDAL.GetAllItems();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            Item currentItem = ItemsDAL.GetItemById(int.Parse(cbItems.SelectedValue.ToString()));
+            currentItem.Quantity += int.Parse(txtQuantity.Text);
+            ItemsDAL.UpdateItem(currentItem);
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            Item currentItem = ItemsDAL.GetItemById(int.Parse(cbItems.SelectedValue.ToString()));
+            currentItem.Quantity -= int.Parse(txtQuantity.Text);
+            ItemsDAL.UpdateItem(currentItem);
         }
 
         private void Inventory_Load(object sender, EventArgs e)
@@ -22,4 +46,3 @@ namespace Clothes
 
         }
     }
-}
