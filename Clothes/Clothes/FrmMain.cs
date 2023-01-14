@@ -54,7 +54,7 @@ namespace Clothes
         private void btnShopping_Click(object sender, EventArgs e)
         {
 
-            Form Shopping = new Inventory();
+            Form Shopping = new Shopping();
             Shopping.ShowDialog();
         }
 
@@ -80,8 +80,7 @@ namespace Clothes
 
         private void lbl1(object sender, EventArgs e)
         {
-            //var y = Application.OpenForms["UserPro"] as UserPro;
-           // y.txtUser.Text = label.Text;
+            
         }
 
         private void btnAddPic_Click(object sender, EventArgs e)

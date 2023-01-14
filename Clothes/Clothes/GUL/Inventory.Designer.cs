@@ -38,6 +38,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(52, 90);
             this.label2.Name = "label2";
@@ -47,6 +48,7 @@
             // 
             // txtQuantity
             // 
+            this.txtQuantity.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtQuantity.Location = new System.Drawing.Point(116, 144);
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(255, 20);
@@ -54,6 +56,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(52, 147);
             this.label1.Name = "label1";
@@ -63,17 +66,19 @@
             // 
             // cbItems
             // 
+            this.cbItems.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbItems.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbItems.FormattingEnabled = true;
             this.cbItems.Location = new System.Drawing.Point(116, 87);
             this.cbItems.Name = "cbItems";
-            this.cbItems.Size = new System.Drawing.Size(650, 21);
+            this.cbItems.Size = new System.Drawing.Size(261, 21);
             this.cbItems.TabIndex = 8;
             // 
             // btnAdd
             // 
+            this.btnAdd.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnAdd.BackColor = System.Drawing.Color.Green;
-            this.btnAdd.Location = new System.Drawing.Point(55, 212);
+            this.btnAdd.Location = new System.Drawing.Point(383, 61);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(262, 70);
             this.btnAdd.TabIndex = 7;
@@ -82,8 +87,9 @@
             // 
             // btnRemove
             // 
+            this.btnRemove.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnRemove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnRemove.Location = new System.Drawing.Point(504, 212);
+            this.btnRemove.Location = new System.Drawing.Point(383, 137);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(262, 70);
             this.btnRemove.TabIndex = 6;
@@ -94,7 +100,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(819, 368);
+            this.ClientSize = new System.Drawing.Size(687, 231);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtQuantity);
             this.Controls.Add(this.label1);
