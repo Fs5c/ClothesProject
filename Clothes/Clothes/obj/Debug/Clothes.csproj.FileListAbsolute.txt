@@ -12,3 +12,17 @@ C:\Users\farah\source\repos\Clothes\Clothes\obj\Debug\Clothes.pdb
 C:\Users\farah\source\repos\Clothes\Clothes\obj\Debug\Clothes.GUL.UserPro.resources
 C:\Users\farah\source\repos\Clothes\Clothes\obj\Debug\Clothes.GUL.Shopping.resources
 C:\Users\farah\source\repos\Clothes\Clothes\obj\Debug\Clothes.Inventory.resources
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.csproj.AssemblyReference.cache
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.csproj.SuggestedBindingRedirects.cache
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.frmMain.resources
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.Inventory.resources
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.GUL.Shopping.resources
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.GUL.UserPro.resources
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.Properties.Resources.resources
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.csproj.GenerateResource.cache
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.csproj.CoreCompileInputs.cache
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.exe
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\obj\Debug\Clothes.pdb
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\bin\Debug\Clothes.exe.config
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\bin\Debug\Clothes.exe
+C:\Users\farah\Source\Repos\ClothesProject\Clothes\Clothes\bin\Debug\Clothes.pdb

@@ -14,8 +14,8 @@ namespace Clothes
 {
     public partial class Inventory : Form
     {
-   
-        public  Inventory()
+
+        public Inventory()
         {
             InitializeComponent();
         }
@@ -46,3 +46,4 @@ namespace Clothes
 
         }
     }
+}

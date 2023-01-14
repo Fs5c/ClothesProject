@@ -197,6 +197,7 @@
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnExit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmMain";
             this.Text = "Clothes shopping";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
