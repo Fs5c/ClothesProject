@@ -14,34 +14,26 @@ using System.Windows.Forms;
 namespace Clothes.GUL
 {
     public partial class Shopping : Form
-    {
+    {FormState frmState = FormState.Add;
+        Item currentItem = new Item();
         public Shopping()
         {
             InitializeComponent();
         }
 
-       /* private void Shopping_Load(object sender, EventArgs e)
-        {
-            Form frmMain = new frmMain();
-            frmMain.ShowDialog();
-            frmMain.Close();
         
-        
-        }*/
-        FormState frmState = FormState.Add;
-        Item currentItem = new Item();
 
   
-        private void frmShoppingItems_Load(object sender, EventArgs e)
+        private void Shopping_Load(object sender, EventArgs e)
         {
-            SetFormState();
+            
             txtItemName.Focus();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             frmState = FormState.WaitingToSave;
-            SetFormState();
+           
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -64,7 +56,7 @@ namespace Clothes.GUL
 
 
             frmState = FormState.Add;
-            SetFormState();
+          
 
             ClearForm();
         }
@@ -73,7 +65,7 @@ namespace Clothes.GUL
         {
 
             frmState = FormState.Add;
-            SetFormState();
+           
 
             ClearForm();
             
@@ -82,7 +74,7 @@ namespace Clothes.GUL
         private void btnCancel_Click(object sender, EventArgs e)
         {
             frmState = FormState.Add;
-            SetFormState();
+           
 
             ClearForm();
         }
@@ -104,34 +96,11 @@ namespace Clothes.GUL
 
 
             frmState = FormState.WaitingToSaveOrDelete;
-            SetFormState();
+           
         }
 
-        private void SetFormState()
-        {
-            if (frmState == FormState.Add)
-            {
-                btnAdd.Enabled = true;
-                btnSave.Enabled = false;
-                btnDelete.Enabled = false;
-                btnCancel.Enabled = false;
-            }
-            else if (frmState == FormState.WaitingToSave)
-            {
-                btnAdd.Enabled = false;
-                btnSave.Enabled = true;
-                btnDelete.Enabled = false;
-                btnCancel.Enabled = true;
-            }
-            else if (frmState == FormState.WaitingToSaveOrDelete)
-            {
-                btnAdd.Enabled = false;
-                btnSave.Enabled = true;
-                btnDelete.Enabled = true;
-                btnCancel.Enabled = true;
-            }
-            txtItemName.Focus();
-        }
+     
+    
 
         private void ClearForm()
         {
@@ -142,12 +111,7 @@ namespace Clothes.GUL
             txtItemName.Focus();
         }
 
-        
-
-        private void Shopping_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }  
     
