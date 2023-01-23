@@ -73,6 +73,16 @@ namespace Clothes.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap e0396ebef4a3f4eeba1d08728ddb7478 {
+            get {
+                object obj = ResourceManager.GetObject("e0396ebef4a3f4eeba1d08728ddb7478", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images {
             get {
                 object obj = ResourceManager.GetObject("images", resourceCulture);

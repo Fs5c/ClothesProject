@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="loeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loeg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="يبيب" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\يبيب.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiddg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kiddg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dfhdhf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dfhdhf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,16 +136,16 @@
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="loeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loeg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="فهرس1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\فهرس.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="يبيب" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\يبيب.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kiddg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kiddg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="فهرسegse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\فهرسegse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e0396ebef4a3f4eeba1d08728ddb7478" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e0396ebef4a3f4eeba1d08728ddb7478.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

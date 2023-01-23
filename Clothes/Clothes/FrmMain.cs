@@ -19,8 +19,11 @@ namespace Clothes
         public frmMain()
         { 
             InitializeComponent();
+           
             instence = this;
+            btnUser.Enabled = true;
         }
+
 
 
         internal void frmMain_Load(string p1 , string p2)
@@ -28,7 +31,8 @@ namespace Clothes
             pictureBox1.Show();
             label2.Text = p1;
             label3.Text = p2;
-        }
+        
+           }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
@@ -38,16 +42,6 @@ namespace Clothes
             DialogResult result = MessageBox.Show(message, title, buttons);
             if (result == DialogResult.Yes)
                 Application.Exit();
-        }
-
-        private void btnUser_Click(object sender, EventArgs e)
-        {
-        
-        }
-
-        private void btnAll_Click(object sender, EventArgs e)
-        {
-      
         }
 
 
@@ -63,14 +57,19 @@ namespace Clothes
             Form Inventory = new Inventory();
             Inventory.ShowDialog();
            // frmMain.Close();
+
         }
 
         private void btnUser_Click_1(object sender, EventArgs e)
-        {
+        {btnUser.Enabled = false;
 
            Form UserPro = new UserPro();
-            UserPro.ShowDialog();
-        UserPro.Close();
+
+            UserPro.Show() ;
+            
+            btnUser.Enabled = false;
+            //Application.Exit();
+         
         }
 
         private void txtVal_TextChanged(object sender, EventArgs e)
@@ -90,6 +89,11 @@ namespace Clothes
             {
                 pictureBox1.ImageLocation = ofd.FileName;
             }
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

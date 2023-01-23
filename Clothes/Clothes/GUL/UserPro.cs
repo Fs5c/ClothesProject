@@ -33,7 +33,7 @@ namespace Clothes.GUL
 
         private void UserPro_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void txtUser_TextChanged(object sender, EventArgs e)
@@ -55,12 +55,14 @@ namespace Clothes.GUL
         }
 
         private void btnloign_Click(object sender, EventArgs e)
-        {
+        {   
             frmMain f = new frmMain();
             
           f.frmMain_Load(txtU.Text,txtPassword.Text);
             f.Show();
-            // Close();
+            
+      
+            
         }
 
 

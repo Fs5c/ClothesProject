@@ -143,6 +143,7 @@
     <Folder Include="NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\e0396ebef4a3f4eeba1d08728ddb7478.png" />
     <Content Include="Scripts\VP_PersonalShopping.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

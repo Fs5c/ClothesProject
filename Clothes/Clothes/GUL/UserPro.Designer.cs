@@ -82,12 +82,15 @@
             // 
             // btnloign
             // 
-            this.btnloign.Location = new System.Drawing.Point(87, 180);
+            this.btnloign.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnloign.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnloign.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnloign.Location = new System.Drawing.Point(81, 177);
             this.btnloign.Name = "btnloign";
-            this.btnloign.Size = new System.Drawing.Size(75, 23);
+            this.btnloign.Size = new System.Drawing.Size(106, 38);
             this.btnloign.TabIndex = 8;
             this.btnloign.Text = "Loign";
-            this.btnloign.UseVisualStyleBackColor = true;
+            this.btnloign.UseVisualStyleBackColor = false;
             this.btnloign.Click += new System.EventHandler(this.btnloign_Click);
             // 
             // txtU
@@ -101,7 +104,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(285, 268);
+            this.BackgroundImage = global::Clothes.Properties.Resources.e0396ebef4a3f4eeba1d08728ddb7478;
+            this.ClientSize = new System.Drawing.Size(262, 264);
             this.Controls.Add(this.txtU);
             this.Controls.Add(this.btnloign);
             this.Controls.Add(this.txtPhone);
@@ -109,6 +113,7 @@
             this.Controls.Add(this.btnPhone);
             this.Controls.Add(this.btnPassword);
             this.Controls.Add(this.lblUser);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UserPro";
             this.Text = "UserPro";
             this.Load += new System.EventHandler(this.UserPro_Load);

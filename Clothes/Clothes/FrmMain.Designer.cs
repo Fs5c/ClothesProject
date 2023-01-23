@@ -50,9 +50,9 @@
             this.btnExit.BackColor = System.Drawing.Color.Red;
             this.btnExit.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExit.Location = new System.Drawing.Point(650, 27);
+            this.btnExit.Location = new System.Drawing.Point(636, 44);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(57, 44);
+            this.btnExit.Size = new System.Drawing.Size(95, 41);
             this.btnExit.TabIndex = 0;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -62,8 +62,9 @@
             // 
             this.lblUser.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblUser.AutoSize = true;
+            this.lblUser.BackColor = System.Drawing.Color.Transparent;
             this.lblUser.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Location = new System.Drawing.Point(391, 125);
+            this.lblUser.Location = new System.Drawing.Point(363, 125);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(92, 20);
             this.lblUser.TabIndex = 2;
@@ -72,8 +73,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(421, 145);
+            this.label1.Location = new System.Drawing.Point(384, 143);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 20);
             this.label1.TabIndex = 7;
@@ -85,13 +87,13 @@
             this.StatAndChart.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Bold);
             this.StatAndChart.ForeColor = System.Drawing.Color.Red;
             this.StatAndChart.Image = global::Clothes.Properties.Resources.فهرسegse;
-            this.StatAndChart.Location = new System.Drawing.Point(463, 313);
+            this.StatAndChart.Location = new System.Drawing.Point(435, 313);
             this.StatAndChart.Name = "StatAndChart";
             this.StatAndChart.Size = new System.Drawing.Size(233, 118);
             this.StatAndChart.TabIndex = 6;
             this.StatAndChart.Text = "Statistics & Charts";
             this.StatAndChart.UseVisualStyleBackColor = true;
-            this.StatAndChart.Click += new System.EventHandler(this.btnAll_Click);
+       
             // 
             // btnInventory
             // 
@@ -99,7 +101,7 @@
             this.btnInventory.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Bold);
             this.btnInventory.ForeColor = System.Drawing.Color.Red;
             this.btnInventory.Image = global::Clothes.Properties.Resources.بيليب;
-            this.btnInventory.Location = new System.Drawing.Point(204, 313);
+            this.btnInventory.Location = new System.Drawing.Point(176, 313);
             this.btnInventory.Name = "btnInventory";
             this.btnInventory.Size = new System.Drawing.Size(233, 118);
             this.btnInventory.TabIndex = 5;
@@ -113,7 +115,7 @@
             this.btnShopping.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Bold);
             this.btnShopping.ForeColor = System.Drawing.Color.Red;
             this.btnShopping.Image = global::Clothes.Properties.Resources.loeg;
-            this.btnShopping.Location = new System.Drawing.Point(463, 167);
+            this.btnShopping.Location = new System.Drawing.Point(435, 167);
             this.btnShopping.Name = "btnShopping";
             this.btnShopping.Size = new System.Drawing.Size(233, 139);
             this.btnShopping.TabIndex = 4;
@@ -129,7 +131,7 @@
             this.btnUser.ForeColor = System.Drawing.Color.Red;
             this.btnUser.Image = global::Clothes.Properties.Resources.images;
             this.btnUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUser.Location = new System.Drawing.Point(204, 167);
+            this.btnUser.Location = new System.Drawing.Point(176, 167);
             this.btnUser.Name = "btnUser";
             this.btnUser.Size = new System.Drawing.Size(233, 140);
             this.btnUser.TabIndex = 3;
@@ -140,8 +142,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBox1.BackgroundImage = global::Clothes.Properties.Resources.e0396ebef4a3f4eeba1d08728ddb7478;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(395, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(367, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(112, 102);
             this.pictureBox1.TabIndex = 1;
@@ -149,7 +152,7 @@
             // 
             // btnAddPic
             // 
-            this.btnAddPic.Location = new System.Drawing.Point(359, 27);
+            this.btnAddPic.Location = new System.Drawing.Point(317, 26);
             this.btnAddPic.Name = "btnAddPic";
             this.btnAddPic.Size = new System.Drawing.Size(30, 23);
             this.btnAddPic.TabIndex = 13;
@@ -162,7 +165,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(489, 129);
+            this.label2.Location = new System.Drawing.Point(452, 129);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 15);
             this.label2.TabIndex = 14;
@@ -173,7 +176,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Location = new System.Drawing.Point(487, 149);
+            this.label3.Location = new System.Drawing.Point(452, 148);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 15);
             this.label3.TabIndex = 15;
@@ -185,7 +188,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(825, 443);
+            this.BackgroundImage = global::Clothes.Properties.Resources.e0396ebef4a3f4eeba1d08728ddb7478;
+            this.ClientSize = new System.Drawing.Size(769, 495);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAddPic);
@@ -200,6 +204,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmMain";
             this.Text = "Clothes shopping";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
